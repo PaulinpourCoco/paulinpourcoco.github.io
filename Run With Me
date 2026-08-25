@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour Toi parce que je t'aime ♡</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3ede1;
+            color: #29251f;
+            font-family: Georgia, "Times New Roman", serif;
+        }
+        .page {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .heart {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+        h1 {
+            font-size: 30px;
+            font-weight: normal;
+            margin: 0 0 10px;
+        }
+        .subtitle {
+            font-size: 16px;
+            font-style: italic;
+            opacity: 0.7;
+            margin-bottom: 40px;
+        }
+        .music {
+            background: #e8dfd0;
+            border-radius: 14px;
+            padding: 18px;
+        }
+        .music-title {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .artist {
+            font-size: 14px;
+            font-style: italic;
+            opacity: 0.7;
+            margin-bottom: 18px;
+        }
+        iframe {
+            border-radius: 12px;
+            border: none;
+            width: 100%;
+        }
+        .message {
+            margin-top: 35px;
+            font-size: 14px;
+            font-style: italic;
+            opacity: 0.65;
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <div class="heart">♡</div>
+        <h1>Une tit musik</h1>
+        <div class="subtitle">
+            Un ptit kdo dans le carnet un peu caché hehe
+        </div>
+        <section class="music">
+            <div class="music-title">
+                Run With Me
+            </div>
+            <div class="artist">
+                Jonny Southard
+            </div>
+            <iframe
+                src="https://open.spotify.com/embed/track/6hYchz78cG6YOE8yHqHhoa"
+                height="152"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </section>
+        <div class="message">
+            Ecoute bien car je t'aime bokou
+        </div>
+    </main>
+</body>
+</html>
